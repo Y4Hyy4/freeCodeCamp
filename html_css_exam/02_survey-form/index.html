@@ -1,0 +1,68 @@
+<h1 id="title">survey form</h1>
+<p id="description">freeCodeCamp exam</p>
+<form id="survey-form">
+    <div id="name-div">
+        <label id="name-label" for="name">
+            Name<input id="name" type="text" placeholder="input your name" required>
+        </label>
+    </div>
+    <div id="email-div">
+        <label id="email-label" for="email">
+            Email<input id="email" type="email" placeholder="input your email" required>
+        </label>
+    </div>
+
+    <div id="age-div">
+        <label id="number-label" for="number">
+            age<input id="number" type="number" min="18" max="60" placeholder="input your age">
+        </label>
+    </div>
+
+    <div id="dropdown-div">
+        <label id="dropdown-label" for="dropdown">
+            role<select id="dropdown">
+                <option id="student" value="student">student</option>
+                <option id="teacher" value="teacher">teacher</option>
+            </select>
+        </label>
+    </div>
+
+    <div id="radio-div">
+        <p>sex</p>
+        <label id="male-label" for="male">
+            male<input name="sex" id="male" type="radio" value="male">
+        </label>
+        <label id="female-label" for="female">
+            female<input name="sex" id="female" type="radio" value="female">
+        </label>
+        <label id="panda-label" for="panda">
+            other<input name="sex id=" panda" type="radio" value="panda">
+        </label>
+        <label id="other-label" for="other">
+            other<input name="sex id=" other" type="radio" value="other">
+        </label>
+    </div>
+
+    <div id="checked-div">
+        <p>hobby</p>
+        <label id="basketball-label" for="basketball">
+            basketball<input name="hobby"" id=" basketball" type="checkbox" value="basketball">
+        </label>
+        <label id="video-game-label" for="video-game">
+            video game<input name="hobby"" id=" video-game" type="checkbox" value="video-game">
+        </label>
+    </div>
+
+    <div id="textarea-div">
+        <p>suggestions</p>
+        <textarea id="suggestions" name="suggestions"
+            placeholder="Enter your suggestions here..."></textarea>
+    </div>
+    
+    <div id="submit-div">
+        <label id="submit-label" for="submit">
+            submit<input id="submit" type="submit">
+        </label>
+    </div>
+
+</form>
